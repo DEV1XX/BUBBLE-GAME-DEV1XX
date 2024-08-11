@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(214, 147, 178);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.panel{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.paneltop{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(190, 46, 96);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.element{
+    display: flex;
+    gap:10px;
+
+
+}
+.name{
+    background-color: rgb(190, 46, 96);
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:fantasy;
+    color: white;
+    font-size: 0.9rem;
+}
+.value{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    color: rgb(190, 46, 96);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panelbottom{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(214, 147, 178);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+.bubble:hover{
+    background-color:rgb(178, 99, 136); ;
+}
+#finalscore{
+    color: rgb(190, 46, 96);
+}
